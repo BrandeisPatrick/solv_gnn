@@ -1,0 +1,48 @@
+2024-01-21 11:53:39,789:gnn.data.dataset:INFO: Start loading dataset.
+2024-01-21 11:53:39,798:gnn.data.dataset:INFO: Processing molecule 0/8
+2024-01-21 11:53:39,858:gnn.data.dataset:INFO: Solute feature names: {'atom': ['total degree', 'partial/formal charge', 'is aromatic', 'is in ring', 'num lone pairs', 'num total H', 'H bond acceptor', 'H bond donor', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'hybridization', 'hybridization', 'hybridization', 'hybridization', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size'], 'bond': ['in_ring', 'conjugated', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size', 'single', 'double', 'triple', 'aromatic'], 'global': ['num atoms', 'num bonds', 'molecule weight']}
+2024-01-21 11:53:39,858:gnn.data.dataset:INFO: Solute feature size: {'atom': 22, 'bond': 11, 'global': 3}
+2024-01-21 11:53:39,858:gnn.data.dataset:INFO: Solvent feature names: {'atom': ['total degree', 'partial/formal charge', 'is aromatic', 'is in ring', 'num lone pairs', 'num total H', 'H bond acceptor', 'H bond donor', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'hybridization', 'hybridization', 'hybridization', 'hybridization', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size'], 'bond': ['in_ring', 'conjugated', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size', 'single', 'double', 'triple', 'aromatic'], 'global': ['num atoms', 'num bonds', 'molecule weight', 'dielectric constant']}
+2024-01-21 11:53:39,858:gnn.data.dataset:INFO: Solvent feature size: {'atom': 22, 'bond': 11, 'global': 4}
+2024-01-21 11:53:39,858:gnn.data.dataset:INFO: Finish loading 8 labels...
+2024-01-21 11:53:51,848:gnn.data.dataset:INFO: Start loading dataset.
+2024-01-21 11:53:51,854:gnn.data.dataset:INFO: Processing molecule 0/8
+2024-01-21 11:53:51,913:gnn.data.dataset:INFO: Solute feature names: {'atom': ['total degree', 'partial/formal charge', 'is aromatic', 'is in ring', 'num lone pairs', 'num total H', 'H bond acceptor', 'H bond donor', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'hybridization', 'hybridization', 'hybridization', 'hybridization', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size'], 'bond': ['in_ring', 'conjugated', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size', 'single', 'double', 'triple', 'aromatic'], 'global': ['num atoms', 'num bonds', 'molecule weight']}
+2024-01-21 11:53:51,913:gnn.data.dataset:INFO: Solute feature size: {'atom': 22, 'bond': 11, 'global': 3}
+2024-01-21 11:53:51,913:gnn.data.dataset:INFO: Solvent feature names: {'atom': ['total degree', 'partial/formal charge', 'is aromatic', 'is in ring', 'num lone pairs', 'num total H', 'H bond acceptor', 'H bond donor', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'hybridization', 'hybridization', 'hybridization', 'hybridization', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size'], 'bond': ['in_ring', 'conjugated', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size', 'single', 'double', 'triple', 'aromatic'], 'global': ['num atoms', 'num bonds', 'molecule weight', 'dielectric constant']}
+2024-01-21 11:53:51,913:gnn.data.dataset:INFO: Solvent feature size: {'atom': 22, 'bond': 11, 'global': 4}
+2024-01-21 11:53:51,913:gnn.data.dataset:INFO: Finish loading 8 labels...
+2024-01-21 11:53:58,592:gnn.data.dataset:INFO: Start loading dataset.
+2024-01-21 11:53:58,600:gnn.data.dataset:INFO: Processing molecule 0/8
+2024-01-21 11:53:58,661:gnn.data.dataset:INFO: Solute feature names: {'atom': ['total degree', 'partial/formal charge', 'is aromatic', 'is in ring', 'num lone pairs', 'num total H', 'H bond acceptor', 'H bond donor', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'hybridization', 'hybridization', 'hybridization', 'hybridization', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size'], 'bond': ['in_ring', 'conjugated', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size', 'single', 'double', 'triple', 'aromatic'], 'global': ['num atoms', 'num bonds', 'molecule weight']}
+2024-01-21 11:53:58,661:gnn.data.dataset:INFO: Solute feature size: {'atom': 22, 'bond': 11, 'global': 3}
+2024-01-21 11:53:58,661:gnn.data.dataset:INFO: Solvent feature names: {'atom': ['total degree', 'partial/formal charge', 'is aromatic', 'is in ring', 'num lone pairs', 'num total H', 'H bond acceptor', 'H bond donor', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'hybridization', 'hybridization', 'hybridization', 'hybridization', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size'], 'bond': ['in_ring', 'conjugated', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size', 'single', 'double', 'triple', 'aromatic'], 'global': ['num atoms', 'num bonds', 'molecule weight', 'dielectric constant']}
+2024-01-21 11:53:58,661:gnn.data.dataset:INFO: Solvent feature size: {'atom': 22, 'bond': 11, 'global': 4}
+2024-01-21 11:53:58,661:gnn.data.dataset:INFO: Finish loading 8 labels...
+2024-01-21 11:53:58,662:gnn.data.transformers:WARNING: Standard deviation for feature 1 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,662:gnn.data.transformers:WARNING: Standard deviation for feature 12 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,662:gnn.data.transformers:WARNING: Standard deviation for feature 15 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,662:gnn.data.transformers:WARNING: Standard deviation for feature 16 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,662:gnn.data.transformers:WARNING: Standard deviation for feature 17 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,662:gnn.data.transformers:WARNING: Standard deviation for feature 18 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,662:gnn.data.transformers:WARNING: Standard deviation for feature 19 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,662:gnn.data.transformers:WARNING: Standard deviation for feature 21 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,663:gnn.data.transformers:WARNING: Standard deviation for feature 2 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,663:gnn.data.transformers:WARNING: Standard deviation for feature 3 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,663:gnn.data.transformers:WARNING: Standard deviation for feature 4 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,663:gnn.data.transformers:WARNING: Standard deviation for feature 6 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,663:gnn.data.transformers:WARNING: Standard deviation for feature 9 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,664:gnn.data.transformers:WARNING: Standard deviation for feature 1 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,664:gnn.data.transformers:WARNING: Standard deviation for feature 7 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,664:gnn.data.transformers:WARNING: Standard deviation for feature 11 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,664:gnn.data.transformers:WARNING: Standard deviation for feature 15 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,664:gnn.data.transformers:WARNING: Standard deviation for feature 16 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,664:gnn.data.transformers:WARNING: Standard deviation for feature 17 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,664:gnn.data.transformers:WARNING: Standard deviation for feature 18 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,664:gnn.data.transformers:WARNING: Standard deviation for feature 19 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,664:gnn.data.transformers:WARNING: Standard deviation for feature 21 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,664:gnn.data.transformers:WARNING: Standard deviation for feature 2 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,664:gnn.data.transformers:WARNING: Standard deviation for feature 3 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,664:gnn.data.transformers:WARNING: Standard deviation for feature 4 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,665:gnn.data.transformers:WARNING: Standard deviation for feature 6 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-21 11:53:58,665:gnn.data.transformers:WARNING: Standard deviation for feature 8 is 0.0, smaller than 0.001. You may want to exclude this feature.

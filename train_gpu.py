@@ -348,7 +348,7 @@ def main_worker(gpu, world_size, args):
     if (args.solvent_split is None) and (args.element_split is None) and (args.scaffold_split is False):
         print(f'Splitting data using random seed {random_seed}')
         trainset, valset, testset = train_validation_test_split(
-            dataset, validation=0.1, test=0.1, random_seed=args.random_seed)
+            dataset, validation=0.2, test=0.2, random_seed=args.random_seed)
     elif args.solvent_split is not None:
         possible_solvents = ['hexane', 'water', 'acetone', 'ethanol', 'benzene', 'ethylacetate',
                'dichloromethane', 'acetonitrile', 'thf', 'dmso']

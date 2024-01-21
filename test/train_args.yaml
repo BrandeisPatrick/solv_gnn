@@ -1,0 +1,56 @@
+!!python/object:argparse.Namespace
+attention_map: false
+batch_size: 100
+dataset_file: /home/dyerlab/Documents/solv_gnn/trained_models/data/testDAAQs.csv
+dataset_state_dict_filename: dataset_state_dict.pkl
+dielectric_constants: /home/dyerlab/Documents/solv_gnn/trained_models/data/dielectrics.csv
+dist_backend: nccl
+dist_url: tcp://localhost:13456
+distributed: 0
+element_split: null
+embedding_size: 24
+epochs: 1000
+fc_activation: LeakyReLU
+fc_batch_norm: 0
+fc_dropout: 0.2
+fc_hidden_size:
+- 64
+- 32
+fc_num_layers: 2
+feature_scaling: true
+gated_activation: LeakyReLU
+gated_batch_norm: 1
+gated_dropout: 0.4
+gated_graph_norm: 1
+gated_hidden_size:
+- 192
+- 192
+- 192
+gated_num_fc_layers: 2
+gated_num_layers: 3
+gated_residual: 1
+gpu: null
+lr: 0.001
+molecular_refractivity: false
+molecular_volume: false
+num_gpu: null
+num_lstm_iters: 6
+num_lstm_layers: 3
+output_file: results.pkl
+random_seed: 0
+restore: 0
+save_dir: test/
+scaffold_split: false
+set2set_ntypes_direct:
+- global
+solute_feature_size:
+  atom: 22
+  bond: 11
+  global: 3
+solvent_feature_size:
+  atom: 22
+  bond: 11
+  global: 4
+solvent_split: null
+start_epoch: 0
+weight_decay: 0.0
