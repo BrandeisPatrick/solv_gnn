@@ -1,0 +1,39 @@
+2024-01-23 10:46:12,386:gnn.data.dataset:INFO: Start loading dataset.
+2024-01-23 10:46:13,404:gnn.data.dataset:INFO: Processing molecule 0/4091
+2024-01-23 10:46:15,812:gnn.data.dataset:INFO: Processing molecule 500/4091
+2024-01-23 10:46:18,240:gnn.data.dataset:INFO: Processing molecule 1000/4091
+2024-01-23 10:46:20,710:gnn.data.dataset:INFO: Processing molecule 1500/4091
+2024-01-23 10:46:23,145:gnn.data.dataset:INFO: Processing molecule 2000/4091
+2024-01-23 10:46:25,524:gnn.data.dataset:INFO: Processing molecule 2500/4091
+2024-01-23 10:46:28,046:gnn.data.dataset:INFO: Processing molecule 3000/4091
+2024-01-23 10:46:30,464:gnn.data.dataset:INFO: Processing molecule 3500/4091
+2024-01-23 10:46:32,971:gnn.data.dataset:INFO: Processing molecule 4000/4091
+2024-01-23 10:46:33,388:gnn.data.dataset:INFO: Solute feature names: {'atom': ['total degree', 'partial/formal charge', 'is aromatic', 'is in ring', 'num lone pairs', 'num total H', 'H bond acceptor', 'H bond donor', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'hybridization', 'hybridization', 'hybridization', 'hybridization', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size'], 'bond': ['in_ring', 'conjugated', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size', 'single', 'double', 'triple', 'aromatic'], 'global': ['num atoms', 'num bonds', 'molecule weight']}
+2024-01-23 10:46:33,388:gnn.data.dataset:INFO: Solute feature size: {'atom': 36, 'bond': 11, 'global': 3}
+2024-01-23 10:46:33,388:gnn.data.dataset:INFO: Solvent feature names: {'atom': ['total degree', 'partial/formal charge', 'is aromatic', 'is in ring', 'num lone pairs', 'num total H', 'H bond acceptor', 'H bond donor', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'chemical symbol', 'hybridization', 'hybridization', 'hybridization', 'hybridization', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size'], 'bond': ['in_ring', 'conjugated', 'ring size', 'ring size', 'ring size', 'ring size', 'ring size', 'single', 'double', 'triple', 'aromatic'], 'global': ['num atoms', 'num bonds', 'molecule weight', 'dielectric constant']}
+2024-01-23 10:46:33,388:gnn.data.dataset:INFO: Solvent feature size: {'atom': 36, 'bond': 11, 'global': 4}
+2024-01-23 10:46:33,388:gnn.data.dataset:INFO: Finish loading 4091 labels...
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 1 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 8 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 13 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 15 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 16 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 18 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 20 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 22 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 23 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 24 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 25 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 29 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 30 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 31 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 32 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,654:gnn.data.transformers:WARNING: Standard deviation for feature 35 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,662:gnn.data.transformers:WARNING: Standard deviation for feature 2 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,662:gnn.data.transformers:WARNING: Standard deviation for feature 3 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:33,662:gnn.data.transformers:WARNING: Standard deviation for feature 6 is 0.0, smaller than 0.001. You may want to exclude this feature.
+2024-01-23 10:46:50,313:gnn.utils:INFO: epoch: 0, score 0.2655539337912849
+2024-01-23 10:47:04,793:gnn.utils:INFO: epoch: 1, score 0.237969815494853
+2024-01-23 10:47:18,712:gnn.utils:INFO: epoch: 2, score 0.21674770552382552
+2024-01-23 10:48:53,086:gnn.utils:INFO: epoch: 9, score 0.20473101703129262
+2024-01-23 10:58:37,137:gnn.utils:INFO: epoch: 53, score 0.1908628934262852
